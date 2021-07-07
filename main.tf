@@ -28,7 +28,3 @@ resource "spotify_playlist" "playlist" {
     data.spotify_search_track.by_artist.tracks[2].id,
   ]
 }
-
-output "tracks" {
-  value = data.spotify_search_track.by_artist.tracks
-}
