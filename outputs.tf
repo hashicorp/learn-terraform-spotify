@@ -1,3 +1,3 @@
-output "tracks" {
-  value = data.spotify_search_track.by_artist.tracks
+output "playlist_url" {
+  value = "https://open.spotify.com/playlist/${spotify_playlist.playlist.id}"
 }
